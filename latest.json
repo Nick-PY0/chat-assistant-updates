@@ -1,7 +1,7 @@
 {
-  "version": "1.3.1",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.3.1.zip",
-  "notes": "Voice fix: the wake word listening files now download by themselves on first start (this is why voice never turned on). Updates are now signed, so Chat only accepts real releases. Also faster, more reliable dashboard pages with clearer error messages.",
-  "sha256": "4aea498018dd21cdac8c8a2b4cb668f0c000ca424cb7f4590b0e65c693634c95",
-  "sig": "uy+mNMqjfqHRnwYHdlnDGPZl1XaiNRdo/27QUl7bE2SdF46KED4FD77DPrTuwlyz5MMPQRgkPcNC4I2x29koAQ=="
+  "version": "1.4.0",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.4.0.zip",
+  "notes": "Three brains to choose from. Keep Google (the default), or switch to OpenAI live or your own Replit relay in Settings -> Brain. New Providers cards hold the OpenAI key and the relay password. If a brain cannot start, Chat answers with Google and explains why in Logs.",
+  "sha256": "78ce1c5bd4198f63c27ba437cbbc4cf6743a99eab9bd3f1d33fee272ffac047f",
+  "sig": "HyKjwY5hZSSow13sb+91jeouiQpAMBhP0ZP/FCK7ut9YrGfdfYLzrwRaZsgNbxT/Tp2CUmJ9mwoyGy0Nb6xtAg=="
 }
