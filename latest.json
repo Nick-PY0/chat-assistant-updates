@@ -1,7 +1,7 @@
 {
-  "version": "1.5.0",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.5.0.zip",
-  "notes": "A fresh light look. The control panel is now light by default and easier to read, with a Dark mode button at the bottom of the menu. Every phone or computer remembers its own choice. Also includes the three voice brains from 1.4.0: Google, OpenAI live, and your own relay, picked in Settings.",
-  "sha256": "37eb5b009e13e3e3c0f13b902762d14f3ca795f1edcf367a7e84ce39a870fe77",
-  "sig": "DU20azc0k6tUHvbQTq1x0PQoJIHWdiOaBJBk3rLztmVMG4r4QSxMSv7gbPL3sHHSu27++X88VvPM+P7utbBtBA=="
+  "version": "1.5.1",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.5.1.zip",
+  "notes": "A fresh light look. The control panel is now light by default and much easier to read, with a Dark mode button at the bottom of the menu. Every phone or computer remembers its own choice. Faint status text and buttons were darkened so they are readable in daylight. Also includes the three voice brains: Google, OpenAI live, and your own relay, picked in Settings.",
+  "sha256": "c9d3cfe41a293b45ee4002a804f32396f2393075a3e799633f8b39f541c1b943",
+  "sig": "17gdq3x6eRXVtrbhqRGR8ov8SiHW4i+Q6YiNFAF08/FM17m4mk476NXjt2DrHouSGnqMfLx6cQi1V4pVYKq/BA=="
 }
