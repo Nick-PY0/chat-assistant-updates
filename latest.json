@@ -1,7 +1,7 @@
 {
-  "version": "1.9.3",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.3.zip",
-  "notes": "Adds speaker-feedback protection for the Voice Controller using browser echo cancellation plus server playback-aware gating. YouTube requests now select and start a canonical result automatically, with a validated official host-browser fallback when no dashboard player is available or embedding/autoplay is blocked. Adds official playlist playback and continuous embedded queue advancement until a media-qualified stop command. Dashboard state distinguishes embedded and host-browser modes and disables controls that cannot affect an external tab.",
-  "sha256": "3ea48a6dd1371fe03f69e72f95f294439b635bf6b4a03b5fc286cd8d760b6e0a",
-  "sig": "a5FzCbaARHY6qCZ7bdQExx2kRI0FG7EXe7DAlzaQDQRaVwnlIWM3RSjA88A7b6RQb+k48B/4Nm+Kb1CCKR7xCw=="
+  "version": "1.9.4",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.4.zip",
+  "notes": "Adds the optional Chat YouTube Companion extension for Chrome and Edge. Jarvis can control a dedicated full youtube.com tab with play, pause, stop, next, previous, seek, restart, volume, mute, and playlist navigation while the Voice Controller stays active. Local and browser microphone paths keep wake listening enabled, use playback-aware filtering, duck on confirmed nearby speech, and pause on a verified wake or active conversation turn. Pairing is authenticated and loopback-only; navigation uses validated official YouTube IDs; all extension actions are blocked while YouTube reports an ad. The extension requires a one-time manual browser installation from deployment/chrome_extension/chat-youtube-companion-1.0.0.zip.",
+  "sha256": "1fc90fb4d7e49c8e887aba6d5a0eb3889a30952b2e05a7d1fd2313b4ba075021",
+  "sig": "OTUlOw0qKiMMW4qnOXFTy+F+eLpLy7eMTsB/gm6rXN5ON4e9sKUo3FKGImhLEHQeRiBPjtYYOk2Olzu6zP3ZCQ=="
 }
