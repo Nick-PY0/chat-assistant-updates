@@ -1,7 +1,7 @@
 {
-  "version": "1.9.2",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.2.zip",
-  "notes": "Fixes Voice Controller wake detection by resampling Windows browser microphones to exact 16 kHz audio and keeping the page in Hey Jarvis wake-listening mode after Goodbye, mute, or timeout. Long transcripts now load the newest 200 lines first with Load earlier pagination. Chat prints every current private Wi-Fi address and includes a manual Windows firewall helper restricted to the Private LocalSubnet and Chat's TCP port.",
-  "sha256": "ada597927639dce89a44cd42725545717441455dcbbbe9ca2576c283a5697c0a",
-  "sig": "L2sdYaUN9W8IvNP6N6Ls5RS3DzRpEN/aXsKgJUeUIC1BtBk5Lj4FML0J1nUKSvt+ZlxPZ+V36s9qZ6ok2hiMDQ=="
+  "version": "1.9.3",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.3.zip",
+  "notes": "Adds speaker-feedback protection for the Voice Controller using browser echo cancellation plus server playback-aware gating. YouTube requests now select and start a canonical result automatically, with a validated official host-browser fallback when no dashboard player is available or embedding/autoplay is blocked. Adds official playlist playback and continuous embedded queue advancement until a media-qualified stop command. Dashboard state distinguishes embedded and host-browser modes and disables controls that cannot affect an external tab.",
+  "sha256": "3ea48a6dd1371fe03f69e72f95f294439b635bf6b4a03b5fc286cd8d760b6e0a",
+  "sig": "a5FzCbaARHY6qCZ7bdQExx2kRI0FG7EXe7DAlzaQDQRaVwnlIWM3RSjA88A7b6RQb+k48B/4Nm+Kb1CCKR7xCw=="
 }
