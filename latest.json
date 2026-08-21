@@ -1,7 +1,7 @@
 {
-  "version": "1.9.7",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.7.zip",
-  "notes": "Fixes the Chat YouTube Companion extension connection test. Extension 1.0.2 now explicitly requests permission to reach Chat only at 127.0.0.1 / localhost, which Chrome requires before its background worker can open the local bridge; it cannot reach any LAN or public host. The extension also reports the actual browser or service-worker connection error instead of the unhelpful message \u2018unknown\u2019. This release includes chat-youtube-companion-1.0.2.zip and removes the superseded 1.0.1 package. Install the new extension manually from deployment/chrome_extension/chat-youtube-companion-1.0.2.zip, then use the plain ws:// address shown under Settings \u2192 YouTube companion extension.",
-  "sha256": "05fac86e2eff230c0b21a9aca5c87951046538eee961a1472c24c2a6d0834fc2",
-  "sig": "g7urZQiEiYu5TSBR3EEWbOBPrHnOxYD622m5mcQfVulLfxBFRVjqcKNB6GcsOm0P3GTI4hQbWflm34Irw0KpDQ=="
+  "version": "1.9.8",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.8.zip",
+  "notes": "Fixes the Chat YouTube Companion connection test in extension 1.0.3. Chrome can close a one-shot service-worker message channel before a long-running WebSocket probe responds, even when Chat's local bridge is healthy. The tokenless Test connection check now opens ws://127.0.0.1:<port>/ws/companion directly from the extension options page. It still accepts loopback bridge URLs only and sends neither a pairing token nor a bridge secret. This release includes chat-youtube-companion-1.0.3.zip and removes superseded 1.0.2. Update Chat, reload or reinstall the extension, then enter the ws:// bridge address from Chat Settings and test again.",
+  "sha256": "c08c84acb1dd131827661a315d32404b0f1cc9773ec028ebd10843a5d49de0f6",
+  "sig": "cOgXpljm0QWiaJZH0n4qTfhHUvTDe7x+SWQn0A+5iSm41vNG6v8jduvYBghdM4yOMnThP30EsBBZwnKL2sahAg=="
 }
