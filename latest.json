@@ -1,7 +1,7 @@
 {
-  "version": "1.9.0",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.0.zip",
-  "notes": "The completed Codex merge: continuous Hey Jarvis conversations with a rolling 30-minute timeout, Stop Jarvis interrupts while Goodbye Jarvis sleeps, persistent Voice Controller across dashboard pages, typed Chat and voice transcripts, clear provider status, canonical copyright-safe YouTube playback, web/news tools, durable alarms with snooze, secure phone HTTPS onboarding, Start with Windows, and Windows reliability fixes.",
-  "sha256": "88faa4b864631c3bb8a589bb77965f9f43d872382cfaf27e761b425f45588529",
-  "sig": "KIFi3zsEWWInA8nyaWkNo6glwo31TCRq3F6IMti5NdDSX43trki1gOXgTqJ9bEBhJP0AKK8Cw4hCwt5R6iH3DA=="
+  "version": "1.9.1",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.1.zip",
+  "notes": "Audio setup errors now say whether the microphone or speaker failed and keep Windows/PortAudio's real reason instead of only ValueError. Expected Windows WinError 10054 disconnect noise from a closed phone, browser, or relay connection is quietly ignored; other asyncio errors remain visible.",
+  "sha256": "d89cdb3b3362c72996028fc8d63b1f8b1f85dfebbc2e8181701075ae439095f0",
+  "sig": "F0fhm6dkKA1icN542LYuYpHRpGN2zwSGTGlS/gQqfE+5EyOKKJbLeIUdmh/1CnQn2Uk9cYqgQs1VSQV07rcpCw=="
 }
