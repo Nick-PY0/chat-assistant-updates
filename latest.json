@@ -1,7 +1,7 @@
 {
-  "version": "1.9.5",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.5.zip",
-  "notes": "Fixes companion pairing and microphone deafness. The YouTube companion extension now connects to a dedicated loopback bridge port that is always plain ws://, because a browser extension cannot approve Chat's self-signed local certificate; the address is shown in Settings and printed at startup, and can be pinned with companion_bridge_port. Muting a song, setting its volume to zero, or pausing it now counts as silence, so the microphone reopens immediately instead of staying gated, including when mute is pressed in YouTube itself. The learned playback noise floor is capped and recovers within about a second of quiet, so loud music or your own voice can no longer ratchet the microphone shut. Protection against Chat hearing its own reply is unchanged. Update the browser extension to 1.0.1 from deployment/chrome_extension/chat-youtube-companion-1.0.1.zip.",
-  "sha256": "f02c316eff3bc455e8f3e89a761a589d5eaf09db760f9c33008904e254faf85e",
-  "sig": "w2ekrR415vfvXI6rTQHMh9nHctqHU+skfy8JLOezQEjHcVvFc1gQbdL8ogHXTv935blF+TZt0NIcDTFG0Z4PDg=="
+  "version": "1.9.6",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.6.zip",
+  "notes": "Fixes companion pairing and microphone deafness. The YouTube companion extension now connects to a dedicated loopback bridge port that is always plain ws://, because a browser extension cannot approve Chat's self-signed local certificate; the address is shown in Settings and printed at startup, and can be pinned with companion_bridge_port. Muting a song, setting its volume to zero, or pausing it now counts as silence, so the microphone reopens immediately instead of staying gated, including when mute is pressed in YouTube itself. The learned playback noise floor recovers within about a second of quiet and rises slowly, so a stale floor or half-heard words can no longer ratchet the microphone shut; loud music is still filtered and protection against Chat hearing its own reply is unchanged. Replaces 1.9.5, which was published briefly the same day. Update the browser extension to 1.0.1 from deployment/chrome_extension/chat-youtube-companion-1.0.1.zip.",
+  "sha256": "445a5d8a235d4614a9afed53c281d6dd8092ad5bcba995b2243080688724e940",
+  "sig": "w4/ytfJ1o5lVOaobP6xesq7tKcyzzlEIaTA95nQvsKhhw2LSN7QNfcC0wlpNUn0qRYugToI/8QhN/D9qkyagDA=="
 }
