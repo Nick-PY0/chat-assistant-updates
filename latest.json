@@ -1,7 +1,7 @@
 {
-  "version": "1.9.9",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.9.zip",
-  "notes": "Fixes Chat YouTube Companion pairing in extension 1.0.4. Pair now now receives an immediate service-worker acknowledgement before the local WebSocket handshake begins, so Chrome cannot close the one-shot message channel and incorrectly report \u2018The message port closed before a response was received\u2019. The authenticated pairing handshake continues normally in the background. This release includes chat-youtube-companion-1.0.4.zip and removes superseded 1.0.3. Update Chat, reload or reinstall the extension, then generate a fresh pairing token and pair again.",
-  "sha256": "2402ad05c6ef581a13bae33b6c91730ea18cadea6146db750308203da661144e",
-  "sig": "CyhgtklS0l9DCTFpx4MxEKqUXPGX/GQT+EqUK82gF8dYru3LfEofEnR4x+fovK99EZIK8RafZqiXuTFtadprAw=="
+  "version": "1.9.10",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.10.zip",
+  "notes": "Fixes the actual Chat YouTube Companion pairing routing bug in extension 1.0.5. Chrome includes sender.tab when the extension options page is open as a normal tab. Older workers treated any message with sender.tab as YouTube content-script traffic, rejected the extension-page origin, and returned no response, causing \u2018The message port closed before a response was received\u2019. The worker now identifies its options/popup pages by its own chrome-extension URL instead. Regression tests cover a tabbed options sender and a YouTube content-script sender. Update Chat, load companion 1.0.5, generate a fresh token, and pair again.",
+  "sha256": "4b1bf53c01ebb6223e4675813f1b170bc5a62437c43228f0700239ca6ef9c83d",
+  "sig": "fGHbfmj8HnvC4I0Bp0mDG4M83UyFCNR0FWlkd1jh0GkzDcw+X3zOe6BxtWgmSFh++qOsLKd+yH+wKi2JG1yQCw=="
 }
