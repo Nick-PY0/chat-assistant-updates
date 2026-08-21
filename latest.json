@@ -1,7 +1,7 @@
 {
-  "version": "1.5.1",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.5.1.zip",
-  "notes": "A fresh light look. The control panel is now light by default and much easier to read, with a Dark mode button at the bottom of the menu. Every phone or computer remembers its own choice. Faint status text and buttons were darkened so they are readable in daylight. Also includes the three voice brains: Google, OpenAI live, and your own relay, picked in Settings.",
-  "sha256": "c9d3cfe41a293b45ee4002a804f32396f2393075a3e799633f8b39f541c1b943",
-  "sig": "17gdq3x6eRXVtrbhqRGR8ov8SiHW4i+Q6YiNFAF08/FM17m4mk476NXjt2DrHouSGnqMfLx6cQi1V4pVYKq/BA=="
+  "version": "1.9.0",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.0.zip",
+  "notes": "The completed Codex merge: continuous Hey Jarvis conversations with a rolling 30-minute timeout, Stop Jarvis interrupts while Goodbye Jarvis sleeps, persistent Voice Controller across dashboard pages, typed Chat and voice transcripts, clear provider status, canonical copyright-safe YouTube playback, web/news tools, durable alarms with snooze, secure phone HTTPS onboarding, Start with Windows, and Windows reliability fixes.",
+  "sha256": "88faa4b864631c3bb8a589bb77965f9f43d872382cfaf27e761b425f45588529",
+  "sig": "KIFi3zsEWWInA8nyaWkNo6glwo31TCRq3F6IMti5NdDSX43trki1gOXgTqJ9bEBhJP0AKK8Cw4hCwt5R6iH3DA=="
 }
