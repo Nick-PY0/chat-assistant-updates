@@ -1,7 +1,7 @@
 {
-  "version": "1.9.4",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.4.zip",
-  "notes": "Adds the optional Chat YouTube Companion extension for Chrome and Edge. Jarvis can control a dedicated full youtube.com tab with play, pause, stop, next, previous, seek, restart, volume, mute, and playlist navigation while the Voice Controller stays active. Local and browser microphone paths keep wake listening enabled, use playback-aware filtering, duck on confirmed nearby speech, and pause on a verified wake or active conversation turn. Pairing is authenticated and loopback-only; navigation uses validated official YouTube IDs; all extension actions are blocked while YouTube reports an ad. The extension requires a one-time manual browser installation from deployment/chrome_extension/chat-youtube-companion-1.0.0.zip.",
-  "sha256": "1fc90fb4d7e49c8e887aba6d5a0eb3889a30952b2e05a7d1fd2313b4ba075021",
-  "sig": "OTUlOw0qKiMMW4qnOXFTy+F+eLpLy7eMTsB/gm6rXN5ON4e9sKUo3FKGImhLEHQeRiBPjtYYOk2Olzu6zP3ZCQ=="
+  "version": "1.9.5",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.5.zip",
+  "notes": "Fixes companion pairing and microphone deafness. The YouTube companion extension now connects to a dedicated loopback bridge port that is always plain ws://, because a browser extension cannot approve Chat's self-signed local certificate; the address is shown in Settings and printed at startup, and can be pinned with companion_bridge_port. Muting a song, setting its volume to zero, or pausing it now counts as silence, so the microphone reopens immediately instead of staying gated, including when mute is pressed in YouTube itself. The learned playback noise floor is capped and recovers within about a second of quiet, so loud music or your own voice can no longer ratchet the microphone shut. Protection against Chat hearing its own reply is unchanged. Update the browser extension to 1.0.1 from deployment/chrome_extension/chat-youtube-companion-1.0.1.zip.",
+  "sha256": "f02c316eff3bc455e8f3e89a761a589d5eaf09db760f9c33008904e254faf85e",
+  "sig": "w2ekrR415vfvXI6rTQHMh9nHctqHU+skfy8JLOezQEjHcVvFc1gQbdL8ogHXTv935blF+TZt0NIcDTFG0Z4PDg=="
 }
