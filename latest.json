@@ -1,7 +1,7 @@
 {
-  "version": "1.9.1",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.1.zip",
-  "notes": "Audio setup errors now say whether the microphone or speaker failed and keep Windows/PortAudio's real reason instead of only ValueError. Expected Windows WinError 10054 disconnect noise from a closed phone, browser, or relay connection is quietly ignored; other asyncio errors remain visible.",
-  "sha256": "d89cdb3b3362c72996028fc8d63b1f8b1f85dfebbc2e8181701075ae439095f0",
-  "sig": "F0fhm6dkKA1icN542LYuYpHRpGN2zwSGTGlS/gQqfE+5EyOKKJbLeIUdmh/1CnQn2Uk9cYqgQs1VSQV07rcpCw=="
+  "version": "1.9.2",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.2.zip",
+  "notes": "Fixes Voice Controller wake detection by resampling Windows browser microphones to exact 16 kHz audio and keeping the page in Hey Jarvis wake-listening mode after Goodbye, mute, or timeout. Long transcripts now load the newest 200 lines first with Load earlier pagination. Chat prints every current private Wi-Fi address and includes a manual Windows firewall helper restricted to the Private LocalSubnet and Chat's TCP port.",
+  "sha256": "ada597927639dce89a44cd42725545717441455dcbbbe9ca2576c283a5697c0a",
+  "sig": "L2sdYaUN9W8IvNP6N6Ls5RS3DzRpEN/aXsKgJUeUIC1BtBk5Lj4FML0J1nUKSvt+ZlxPZ+V36s9qZ6ok2hiMDQ=="
 }
