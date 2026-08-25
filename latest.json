@@ -1,7 +1,7 @@
 {
-  "version": "1.9.12",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.12.zip",
-  "notes": "Adds optional local-only LG webOS TV control with encrypted pairing, dashboard remote controls, Wake-on-LAN, volume, mute, playback, navigation, inputs, text entry, installed-app search and launch, status reporting, and natural wording such as turn off, power down, shut off, or take off the TV. Includes the verified Chat YouTube Companion 1.0.6 package.",
-  "sha256": "cfba039dd986783802ec20340a8da009cfd9743ca9d12a61b539bce655411bef",
-  "sig": "wZJl+Glcvtcw+20lLb7y0HCUjgyd8fMv9s8GcCfBeqYLZHpszHEGEL1kMlTbbbZznlMbOPi3+Qi2SlJD//N+DA=="
+  "version": "1.9.13",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.13.zip",
+  "notes": "Companion 1.0.7 fixes a pairing-status race where auth_ok could set the extension to ready and then the older asynchronous secret-storage step could overwrite the display with the stale message secret stored, awaiting auth_ok. Successful pairing now settles on ready. This release includes chat-youtube-companion-1.0.7.zip and retains the optional local LG webOS TV controls from 1.9.12.",
+  "sha256": "38e67cddd47b5ca0a1890799a1187f64570a7e268f7567c9d99e3eb6a0652909",
+  "sig": "7zBLJaZ+IPREqlvwAa+X+Oa7lEfRsZAvVwU5a/zNShSEb9UHPqy8AmliB2yDdJVsiFaqVYpVgfUKpwqYK8NQAA=="
 }
