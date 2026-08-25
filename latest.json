@@ -1,7 +1,7 @@
 {
-  "version": "1.9.14",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.14.zip",
-  "notes": "Fixes Gemini replies interrupting themselves when speaker output leaked into the microphone. Local and browser mic audio is now kept out of the provider while Chat speaks, while intentional barge-in still transitions safely back to listening and delayed model audio is discarded. Also fixes LG TV power-on requests falsely reporting already on when the WebOS socket remained connected after power-off; Wake-on-LAN is now sent unless live power state is positively on or active. Includes Chat YouTube Companion 1.0.7.",
-  "sha256": "e1cd131d83f8eb5c5e9058667f25ab82a97595b5e016a48524a2ce49bc1c2494",
-  "sig": "Ca7Y73AGBevQGuQ90rs8AYpHTu2Jv1M/KqbtW1D4u91ftP+scuc4lBt+dJAa60Ux5yT7WHIdiMhKfRnX+cN+CQ=="
+  "version": "1.9.15",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.15.zip",
+  "notes": "Redesigns the Devices page TV controls as a real on-screen remote: D-pad with OK, shortcuts, playback and volume keys, and one state-aware power key that powers off when the TV is on or sends a best-effort Wake-on-LAN nudge when it is off; the remote stays visible while a paired TV is offline. Adds TV text entry from the remote or by voice (capped at 120 characters, never logged; previously paired TVs need one re-pair to grant the keyboard permission). Companion 1.0.8 makes YouTube failures honest: every command is acknowledged exactly once, failures name the real cause, and a timed-out command is reported as uncertain and never replayed automatically.",
+  "sha256": "d48392a36e02d66094242e26f1fc8be33b7f2a2e6c818302444f92bcb18bcbc7",
+  "sig": "Rw69hV/Oe5eUpmIflW4VfLlW+15z93pbDbie4ScBB9k3TM9Zcif1QhL/D1xcCRyX3rIVhfGAfODBn0T/R/6yCw=="
 }
