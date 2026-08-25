@@ -1,7 +1,7 @@
 {
-  "version": "1.9.11",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.11.zip",
-  "notes": "Companion extension 1.0.6 removes MessageSender metadata from UI routing entirely. Pair now, Get status, Unpair, and Test bridge are private internal message types and now enter the UI path directly; YouTube content messages use separate types. A new executable harness imports the real background.js module with a Chrome MV3 mock and verifies that a tabbed Pair request with missing optional sender fields receives {ok:true} synchronously. This release includes chat-youtube-companion-1.0.6.zip and removes superseded 1.0.5. Remove the old extension, load 1.0.6 from a new folder, generate a fresh token, and pair again.",
-  "sha256": "30283464dcda204705ce7b15c85010698d28f035064dae57e13429bb5f8c9e61",
-  "sig": "hfv0Dd6h2zr2y1cveHdfOqvM72r8Nr4ozL9X4WqMGryJqcyTKYluAp+ZjqbNcnRXS+I65GIv1B9ZlHjoRJY/AA=="
+  "version": "1.9.12",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.12.zip",
+  "notes": "Adds optional local-only LG webOS TV control with encrypted pairing, dashboard remote controls, Wake-on-LAN, volume, mute, playback, navigation, inputs, text entry, installed-app search and launch, status reporting, and natural wording such as turn off, power down, shut off, or take off the TV. Includes the verified Chat YouTube Companion 1.0.6 package.",
+  "sha256": "cfba039dd986783802ec20340a8da009cfd9743ca9d12a61b539bce655411bef",
+  "sig": "wZJl+Glcvtcw+20lLb7y0HCUjgyd8fMv9s8GcCfBeqYLZHpszHEGEL1kMlTbbbZznlMbOPi3+Qi2SlJD//N+DA=="
 }
