@@ -1,7 +1,7 @@
 {
-  "version": "1.9.13",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.13.zip",
-  "notes": "Companion 1.0.7 fixes a pairing-status race where auth_ok could set the extension to ready and then the older asynchronous secret-storage step could overwrite the display with the stale message secret stored, awaiting auth_ok. Successful pairing now settles on ready. This release includes chat-youtube-companion-1.0.7.zip and retains the optional local LG webOS TV controls from 1.9.12.",
-  "sha256": "38e67cddd47b5ca0a1890799a1187f64570a7e268f7567c9d99e3eb6a0652909",
-  "sig": "7zBLJaZ+IPREqlvwAa+X+Oa7lEfRsZAvVwU5a/zNShSEb9UHPqy8AmliB2yDdJVsiFaqVYpVgfUKpwqYK8NQAA=="
+  "version": "1.9.14",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.14.zip",
+  "notes": "Fixes Gemini replies interrupting themselves when speaker output leaked into the microphone. Local and browser mic audio is now kept out of the provider while Chat speaks, while intentional barge-in still transitions safely back to listening and delayed model audio is discarded. Also fixes LG TV power-on requests falsely reporting already on when the WebOS socket remained connected after power-off; Wake-on-LAN is now sent unless live power state is positively on or active. Includes Chat YouTube Companion 1.0.7.",
+  "sha256": "e1cd131d83f8eb5c5e9058667f25ab82a97595b5e016a48524a2ce49bc1c2494",
+  "sig": "Ca7Y73AGBevQGuQ90rs8AYpHTu2Jv1M/KqbtW1D4u91ftP+scuc4lBt+dJAa60Ux5yT7WHIdiMhKfRnX+cN+CQ=="
 }
