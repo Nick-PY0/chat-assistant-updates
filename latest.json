@@ -1,7 +1,7 @@
 {
-  "version": "1.9.15",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.15.zip",
-  "notes": "Redesigns the Devices page TV controls as a real on-screen remote: D-pad with OK, shortcuts, playback and volume keys, and one state-aware power key that powers off when the TV is on or sends a best-effort Wake-on-LAN nudge when it is off; the remote stays visible while a paired TV is offline. Adds TV text entry from the remote or by voice (capped at 120 characters, never logged; previously paired TVs need one re-pair to grant the keyboard permission). Companion 1.0.8 makes YouTube failures honest: every command is acknowledged exactly once, failures name the real cause, and a timed-out command is reported as uncertain and never replayed automatically.",
-  "sha256": "d48392a36e02d66094242e26f1fc8be33b7f2a2e6c818302444f92bcb18bcbc7",
-  "sig": "Rw69hV/Oe5eUpmIflW4VfLlW+15z93pbDbie4ScBB9k3TM9Zcif1QhL/D1xcCRyX3rIVhfGAfODBn0T/R/6yCw=="
+  "version": "1.9.16",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.16.zip",
+  "notes": "Redesigns the Devices page TV controls as a real on-screen remote: D-pad with OK, shortcuts, playback and volume keys, and one state-aware power key that powers off when the TV is on or sends a best-effort Wake-on-LAN nudge when it is off; the remote stays visible while a paired TV is offline. Adds TV text entry from the remote or by voice (capped at 120 characters, never logged; previously paired TVs need one re-pair to grant the keyboard permission). Companion 1.0.8 makes YouTube failures honest: every command is acknowledged exactly once, failures name the real cause, and a timed-out command is reported as uncertain and never replayed automatically. Supersedes 1.9.15, which was withdrawn minutes after publishing.",
+  "sha256": "f284e0c0cfa4a5522e3612f155e754b1147f55aba57f15cd312b1a55a821d39f",
+  "sig": "geYV9xLhKT0I0HSHJlzyN07yqOixliIn3hFnZgQn7HS/g26C+N8Rzky5sop2yW8dqF9ajc/3mAKqMsIEXHeKAQ=="
 }
