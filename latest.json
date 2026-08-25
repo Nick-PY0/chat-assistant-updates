@@ -1,7 +1,7 @@
 {
-  "version": "1.9.16",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.16.zip",
-  "notes": "Redesigns the Devices page TV controls as a real on-screen remote: D-pad with OK, shortcuts, playback and volume keys, and one state-aware power key that powers off when the TV is on or sends a best-effort Wake-on-LAN nudge when it is off; the remote stays visible while a paired TV is offline. Adds TV text entry from the remote or by voice (capped at 120 characters, never logged; previously paired TVs need one re-pair to grant the keyboard permission). Companion 1.0.8 makes YouTube failures honest: every command is acknowledged exactly once, failures name the real cause, and a timed-out command is reported as uncertain and never replayed automatically. Supersedes 1.9.15, which was withdrawn minutes after publishing.",
-  "sha256": "f284e0c0cfa4a5522e3612f155e754b1147f55aba57f15cd312b1a55a821d39f",
-  "sig": "geYV9xLhKT0I0HSHJlzyN07yqOixliIn3hFnZgQn7HS/g26C+N8Rzky5sop2yW8dqF9ajc/3mAKqMsIEXHeKAQ=="
+  "version": "1.9.17",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.17.zip",
+  "notes": "Companion 1.0.9 makes pairing and reconnect status race-safe, routes pause/resume to the authenticated YouTube tab even before a video ID is tracked, and clears stale audibility on disconnect so wake listening recovers. LG YouTube text entry now performs the required WebOS remote-keyboard registration before insertText while preserving the local-only allowlist.",
+  "sha256": "b9893c4355f1514e7353b713dcfaa99340d46f196d91c6cfd31c89f7a768e267",
+  "sig": "3nOVciUSAlWTI3rtPWj/y44JM4rnO6e1Fdwa/pACFvS9K3gWvrFzOi2txzMCR8hQV6oRtAJfcNSnIll3CDPLCA=="
 }
