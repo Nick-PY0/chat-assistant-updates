@@ -1,7 +1,7 @@
 {
-  "version": "1.9.20",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.20.zip",
-  "notes": "Corrects the remote voice regression in 1.9.19. Hey Jarvis wake detection now keeps model reset under exclusive ownership, ignores stale results during audio reloads, and reports model readiness without waiting for microphone frames. The phone plays a short pleasant confirmation chime only after the server detects the wake phrase. Silent browser AudioWorklet capture automatically falls back to compatibility mode, failed capture is shown clearly, and rapid retries cannot leave stale microphones or sockets active. Manual start and post-chime speech continue to reach the private provider session.",
-  "sha256": "6a41d623fed7e39617a080a3c5116f9a013f3512619e19ee6a8dd62c019761e5",
-  "sig": "HAlYRL0METgM0+x6mynE4PeByBwqxX8uQi9/pKm90mOskr5Yd7kgfDm4ZqOi1RjOq7thV8o+ODKe9v0zwI4AAQ=="
+  "version": "1.9.21",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.21.zip",
+  "notes": "Fixes a wake-word dead zone when the phone Voice Controller is open but its browser is not sending microphone audio. The phone now owns the shared wake detector only while valid PCM frames are actively arriving; if capture is silent or stalls, the computer microphone resumes Hey Jarvis detection automatically with a clean model state. The phone also shows a server-confirmed 'Microphone audio is reaching Jarvis' message after its first valid audio frame, making browser capture failures visible instead of leaving the controller silently Sleeping. Includes the 1.9.20 wake chime, capture fallback, retry fencing, and model readiness fixes.",
+  "sha256": "d327513f699a14da1fa28eb2c994e51abcbe531516a9488d29bcd2765cdc2cb4",
+  "sig": "vRyXOVFlFZpJ9LXU027bWn6cSWpeCluzvw+z6HfFmw6flccgC/4/8TMGSBOE4cTrG+vmB7CmFYbKL5DIJT/2AA=="
 }
