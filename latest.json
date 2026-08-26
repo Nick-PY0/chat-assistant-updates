@@ -1,7 +1,7 @@
 {
-  "version": "1.9.22",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.22.zip",
-  "notes": "Restores the phone Voice Controller's manual start fallback. Tapping the large 'Say Hey Jarvis' button now always starts a conversation, even when the wake model is loaded but not detecting the phrase; previously that click was silently ignored whenever the model claimed to be available. Adds honest wake-detector diagnostics showing either the real inference error or the best score versus the configured threshold, and marks the remote wake model unavailable after repeated inference failures so manual start remains usable. Automatic wake detection is still being diagnosed; this release does not claim that issue is fixed. Includes the 1.9.21 host fallback when phone capture stalls.",
-  "sha256": "8550e05f56657ac7f937e23af479e061b194f54219a9b33adcf1ec64d9985db5",
-  "sig": "FbjEQdcNcKboHouS+3bTiPnvGl+7TtzJtG2AEEg8hlYe2uEH26/cj/AdEv8/3JHwM8LvxzD4ro9D9jWEqZacAw=="
+  "version": "1.9.23",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.23.zip",
+  "notes": "Makes Jarvis more responsive, capable, and observable. Govee lights now understand canonical color names such as brown and safely accept custom #RRGGBB shades, validating and converting every color to Govee's packed RGB integer. Complex questions dynamically select the highest-ranked compatible reasoning model advertised by the relay while commands stay economical and spend limits, tool support, and bounded fallbacks remain enforced. Every accepted utterance gets a heard-you cue and a quiet cancellable working pulse on the active device. Explicit 'Talk on this device' now atomically takes ownership even when a stale resume token exists, while automatic reconnect still resumes safely. Interruption reacts faster without forwarding echo candidates. Logs and the voice controller show a bounded metadata-only event timeline with stage durations; no audio, transcripts, keys, or unbounded frame data are recorded.",
+  "sha256": "531458c74cefd7e0da3dc4c1037a47d8a82d2293a21402bbde6dd6206199bf5d",
+  "sig": "ocoqNj/eQwlgddxMnKxWATKXGWFBCfAOn7jrATeg1IIV2JJePBCGekJhMuArJczBRzonK42F6xnHMT0EikwyAg=="
 }
