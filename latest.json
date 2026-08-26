@@ -1,7 +1,7 @@
 {
-  "version": "1.9.17",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.17.zip",
-  "notes": "Companion 1.0.9 makes pairing and reconnect status race-safe, routes pause/resume to the authenticated YouTube tab even before a video ID is tracked, and clears stale audibility on disconnect so wake listening recovers. LG YouTube text entry now performs the required WebOS remote-keyboard registration before insertText while preserving the local-only allowlist.",
-  "sha256": "b9893c4355f1514e7353b713dcfaa99340d46f196d91c6cfd31c89f7a768e267",
-  "sig": "3nOVciUSAlWTI3rtPWj/y44JM4rnO6e1Fdwa/pACFvS9K3gWvrFzOi2txzMCR8hQV6oRtAJfcNSnIll3CDPLCA=="
+  "version": "1.9.18",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.18.zip",
+  "notes": "Remote device voice is rebuilt as a secure, dedicated phone/tablet/computer session with exclusive ownership, reconnect and takeover protection, bounded framed audio, browser playback, barge-in, push-to-talk fallback, transcripts, tools, reminders, announcements, and strict isolation from the host microphone and speakers. The LG TV remote now uses correlated serialized commands, generation-fenced reconnects, active health probes, truthful lifecycle and power states, real refresh recovery, and race-proof dashboard updates.",
+  "sha256": "a74ca9cd0770687325bc34d95508a03abdbdcaa5af5d2a2ae9c71aae6284d010",
+  "sig": "w+ceLFPBzpMRlRGmt+98csvUwtDgI8D0Lwm2xuf5UdQuWMd44RoQhBRDC/VCRuwAiWe/M/WcseGqpAhSGd4dAg=="
 }
