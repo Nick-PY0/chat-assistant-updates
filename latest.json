@@ -1,7 +1,7 @@
 {
-  "version": "1.9.18",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.18.zip",
-  "notes": "Remote device voice is rebuilt as a secure, dedicated phone/tablet/computer session with exclusive ownership, reconnect and takeover protection, bounded framed audio, browser playback, barge-in, push-to-talk fallback, transcripts, tools, reminders, announcements, and strict isolation from the host microphone and speakers. The LG TV remote now uses correlated serialized commands, generation-fenced reconnects, active health probes, truthful lifecycle and power states, real refresh recovery, and race-proof dashboard updates.",
-  "sha256": "a74ca9cd0770687325bc34d95508a03abdbdcaa5af5d2a2ae9c71aae6284d010",
-  "sig": "w+ceLFPBzpMRlRGmt+98csvUwtDgI8D0Lwm2xuf5UdQuWMd44RoQhBRDC/VCRuwAiWe/M/WcseGqpAhSGd4dAg=="
+  "version": "1.9.19",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.19.zip",
+  "notes": "Remote voice now detects the first Hey Jarvis reliably and wakes again after Goodbye. Phones connected while the wake model is still loading automatically switch from manual start to wake-word listening without reconnecting. Phone ownership resets stale host wake history safely, spoken Goodbye deterministically retires the old provider session, and host/phone inference plus reset remain serialized even during audio reload cancellation.",
+  "sha256": "9983a1e58a3eabc14f88d485c173c04a5f6d41b9f068acf6277d6aef90c8f189",
+  "sig": "bWMyT2qLhj4vt8ONCTW+9yVWOVmzW4jjPP6KcgN7ysjoyNWMnPzRSlTr12xZwEoIvLbXUGsvSYIwySt6uP2bBg=="
 }
