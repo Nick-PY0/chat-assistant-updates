@@ -1,7 +1,7 @@
 {
-  "version": "1.9.25",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.25.zip",
-  "notes": "Makes Govee lights reliable through a durable local catalog with normalized names, explicit aliases and rooms, capability-aware commands, ambiguity protection, and one serialized refresh command that also safely reprobes the LG TV. Adds bounded relevant-memory and public-device context consistently across typed OpenAI/Relay and Gemini/OpenAI/Relay voice sessions, with fail-open lookups and privacy-safe telemetry. Provider identifiers remain internal through Unicode-aware filtering, status results use a closed public projection, and sleeping or powered-off TVs remain normal offline states.",
-  "sha256": "9fd0418fbc84a5f92f7d18f3ae44ecf66871358dfc73c73691d107f9baad7836",
-  "sig": "XM38sbb2d0USoPXLFiLqXO/opTyWV3QUuFYivkqsoBT67fgptklQLE+PYipndjMZy9xTOyrkP8NPg7IEaa4uCA=="
+  "version": "1.9.26",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.26.zip",
+  "notes": "Voice Controller working feedback now stops promptly and can never beep or stay visible indefinitely, even if a provider loses its completion signal. Calendar appointment and assistant-preference panels also use the available desktop space and stack responsively on narrower screens.",
+  "sha256": "64e923cdc2ab0e699f7c0b729d55f7b33b155a891c918a6c862102ff1a1bf3d3",
+  "sig": "M72UBAJvjZpYD9ytXaTOfjtrJXHJ48Jlz0S93CSU2h6yRH59Pik7o9tbKAnvh00NpiVQbiLdBlBdAukoF4CZAQ=="
 }
