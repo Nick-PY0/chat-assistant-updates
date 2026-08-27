@@ -1,7 +1,7 @@
 {
-  "version": "1.9.26",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.26.zip",
-  "notes": "Voice Controller working feedback now stops promptly and can never beep or stay visible indefinitely, even if a provider loses its completion signal. Calendar appointment and assistant-preference panels also use the available desktop space and stack responsively on narrower screens.",
-  "sha256": "64e923cdc2ab0e699f7c0b729d55f7b33b155a891c918a6c862102ff1a1bf3d3",
-  "sig": "M72UBAJvjZpYD9ytXaTOfjtrJXHJ48Jlz0S93CSU2h6yRH59Pik7o9tbKAnvh00NpiVQbiLdBlBdAukoF4CZAQ=="
+  "version": "1.9.27",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.27.zip",
+  "notes": "Jarvis can now consult ChatGPT or Claude explicitly or automatically for genuinely complex questions, with 30 allowlisted models including GPT-5.6 Sol and Claude Opus 5, provider-specific maximum reasoning, query-sensitive model choice, live dashboard controls, privacy filtering, daily spending limits, and bounded working feedback.",
+  "sha256": "57c071f937a5dc6ec497b7b2d39bf7e644b6d455f78b9b914ee2354817e4e9a2",
+  "sig": "JKzGpjR2FgPLu5ytmo5uRA0uM+lgNyBpqFAjWeW//ECDN3CJBwFzF276xd396+x5KUT3IK5BYI/wLaGHvviqDg=="
 }
