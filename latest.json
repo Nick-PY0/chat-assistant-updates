@@ -1,7 +1,7 @@
 {
-  "version": "1.9.23",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.23.zip",
-  "notes": "Makes Jarvis more responsive, capable, and observable. Govee lights now understand canonical color names such as brown and safely accept custom #RRGGBB shades, validating and converting every color to Govee's packed RGB integer. Complex questions dynamically select the highest-ranked compatible reasoning model advertised by the relay while commands stay economical and spend limits, tool support, and bounded fallbacks remain enforced. Every accepted utterance gets a heard-you cue and a quiet cancellable working pulse on the active device. Explicit 'Talk on this device' now atomically takes ownership even when a stale resume token exists, while automatic reconnect still resumes safely. Interruption reacts faster without forwarding echo candidates. Logs and the voice controller show a bounded metadata-only event timeline with stage durations; no audio, transcripts, keys, or unbounded frame data are recorded.",
-  "sha256": "531458c74cefd7e0da3dc4c1037a47d8a82d2293a21402bbde6dd6206199bf5d",
-  "sig": "ocoqNj/eQwlgddxMnKxWATKXGWFBCfAOn7jrATeg1IIV2JJePBCGekJhMuArJczBRzonK42F6xnHMT0EikwyAg=="
+  "version": "1.9.24",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.24.zip",
+  "notes": "Adds encrypted Google Calendar integration with reviewed appointment creation, approaching-meeting alerts, and scheduled calendar/weather/news briefings that never replay after downtime. Adds one room-aware player for Spotify Premium/Connect, YouTube, and securely indexed local music, with explicit destination mappings, queues, favorites, playlists, volume controls, restart/ownership fencing, and Windows-native reparse-safe file access. Adds validated user routines and disabled-until-configured starter scenes using only allowlisted Chat actions, optional no-replay schedules, generation-fenced execution, and sanitized history. Source upgrades now install newly declared Python dependencies before replacing code, including a safe bridge for upgrades from 1.9.23.",
+  "sha256": "d4b9baf2e223e5fc899973089963ca5f462edfdf6fe3868b3879bc92ef592ba7",
+  "sig": "wo8bqms7gGh3eILH1jHpbkqqLgMzmsavu+2C5P/8PYqrqVEhgehVDnGPFF8WN9NPhGruCf8BJZxvGyJeBSNRDg=="
 }
