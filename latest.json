@@ -1,7 +1,7 @@
 {
-  "version": "1.9.24",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.24.zip",
-  "notes": "Adds encrypted Google Calendar integration with reviewed appointment creation, approaching-meeting alerts, and scheduled calendar/weather/news briefings that never replay after downtime. Adds one room-aware player for Spotify Premium/Connect, YouTube, and securely indexed local music, with explicit destination mappings, queues, favorites, playlists, volume controls, restart/ownership fencing, and Windows-native reparse-safe file access. Adds validated user routines and disabled-until-configured starter scenes using only allowlisted Chat actions, optional no-replay schedules, generation-fenced execution, and sanitized history. Source upgrades now install newly declared Python dependencies before replacing code, including a safe bridge for upgrades from 1.9.23.",
-  "sha256": "d4b9baf2e223e5fc899973089963ca5f462edfdf6fe3868b3879bc92ef592ba7",
-  "sig": "wo8bqms7gGh3eILH1jHpbkqqLgMzmsavu+2C5P/8PYqrqVEhgehVDnGPFF8WN9NPhGruCf8BJZxvGyJeBSNRDg=="
+  "version": "1.9.25",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.25.zip",
+  "notes": "Makes Govee lights reliable through a durable local catalog with normalized names, explicit aliases and rooms, capability-aware commands, ambiguity protection, and one serialized refresh command that also safely reprobes the LG TV. Adds bounded relevant-memory and public-device context consistently across typed OpenAI/Relay and Gemini/OpenAI/Relay voice sessions, with fail-open lookups and privacy-safe telemetry. Provider identifiers remain internal through Unicode-aware filtering, status results use a closed public projection, and sleeping or powered-off TVs remain normal offline states.",
+  "sha256": "9fd0418fbc84a5f92f7d18f3ae44ecf66871358dfc73c73691d107f9baad7836",
+  "sig": "XM38sbb2d0USoPXLFiLqXO/opTyWV3QUuFYivkqsoBT67fgptklQLE+PYipndjMZy9xTOyrkP8NPg7IEaa4uCA=="
 }
