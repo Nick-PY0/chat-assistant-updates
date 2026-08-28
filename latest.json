@@ -1,7 +1,7 @@
 {
-  "version": "1.9.30",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.30.zip",
-  "notes": "AI Expert model names now remain visible beside compact checkboxes and reasoning badges. Wake sensitivity changes also start a fresh score window, so old peaks are never compared against a new threshold and above-threshold telemetry no longer shows a contradictory warning.",
-  "sha256": "50ebbdc95a5e6f2a7468ff5b94769ac41785a6104c4665ac5efae026631bf692",
-  "sig": "4Wqm/PP1txaGEbn7iDaD/zlx14y2MQxub7n4yIDqUeZTcV0VEn9fEBRiNlvSgw+bSAIL0eHUFVp7JLMzmu9nCw=="
+  "version": "1.9.31",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.31.zip",
+  "notes": "Search YouTube or Netflix on the TV by voice with confirmed foreground and live keyboard focus. TV typing now refuses false success and withholds Enter after focus loss. Explicit Ask ChatGPT or Ask Claude replies are returned full and unchanged unless a summary or transformation is requested. Phone-access diagnostics now show the exact LAN address and actionable firewall, network, and certificate guidance.",
+  "sha256": "dcd4245b82d1e147f0c0a9f8c80cd1cc59f1b7a7f28a40851786bf3fbb863365",
+  "sig": "KjsiUnhKjcf0i5ZdVlXxsbAzeGCv4eI+gK7tHPgQ5PU2uCwznJ+zjvGy11XC50kqs1YqQBxYu491q6pZgkcWAw=="
 }
