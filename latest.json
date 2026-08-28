@@ -1,7 +1,7 @@
 {
-  "version": "1.9.27",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.27.zip",
-  "notes": "Jarvis can now consult ChatGPT or Claude explicitly or automatically for genuinely complex questions, with 30 allowlisted models including GPT-5.6 Sol and Claude Opus 5, provider-specific maximum reasoning, query-sensitive model choice, live dashboard controls, privacy filtering, daily spending limits, and bounded working feedback.",
-  "sha256": "57c071f937a5dc6ec497b7b2d39bf7e644b6d455f78b9b914ee2354817e4e9a2",
-  "sig": "JKzGpjR2FgPLu5ytmo5uRA0uM+lgNyBpqFAjWeW//ECDN3CJBwFzF276xd396+x5KUT3IK5BYI/wLaGHvviqDg=="
+  "version": "1.9.28",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.28.zip",
+  "notes": "Supersedes 1.9.27: the Providers AI Experts page now reads the live ChatGPT and Claude catalog using the authenticated API\u2019s actual response shape, so loading, saving, and rerendering model controls no longer fails with the chatgpt undefined error.",
+  "sha256": "e8f51b8d2da2c863ac3b659daffed30e537fd7f3da1ba1204ec92dcbaf259f64",
+  "sig": "aefHv/b6IIFZGDRc6xuu/C/2dB9xqKQxOo8edGYXVURg5vyGMtI7ErIgv566lJa5NM7aqS007JillOJeYsiJCg=="
 }
