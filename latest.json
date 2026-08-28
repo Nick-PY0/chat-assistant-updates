@@ -1,7 +1,7 @@
 {
-  "version": "1.9.32",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.32.zip",
-  "notes": "YouTube TV searches now drive the app-rendered A-Z keyboard shown on screen instead of waiting for a native webOS text-focus signal that YouTube never sends. Chat follows the photographed Home-to-Search-to-A path, selects letters and spaces with bounded D-pad presses, and activates the on-screen Search button. Manual grid typing requires an explicit one-shot confirmation that A is highlighted, and automatic results are truthfully marked screen-unverified.",
-  "sha256": "475570983b9f1907d7f104fbff04454b81a9f2bd1da56817b237993166b4ff19",
-  "sig": "g6oSf6MUUwiPKrYkUfFnQHgfNvQtFEqInrY4f+YgcyFvNcryPDElRLtuO883ZQFb+HlM+Sfx4t55grYeLX72Dg=="
+  "notes": "Fix Windows LAN firewall setup, reset YouTube searches before slower D-pad navigation, and add bounded GitHub review, publish, sync, and rollback.",
+  "sha256": "aac966e3f830f5b41a0d7d5c6a6a3c847df56acf2bdca24a351ce7f2db3512fd",
+  "sig": "F8GtP53nHPa4yr0VfcLKGCWLblJkpB1gtC9FZVLUHQR52eRajtL6N18OSaY13yIIZ/bsBVIAHz0jg5NaYwu6CQ==",
+  "version": "1.9.33",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.33.zip"
 }
