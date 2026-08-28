@@ -1,7 +1,7 @@
 {
-  "version": "1.9.29",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.29.zip",
-  "notes": "Google Calendar controls on the Providers page now keep their intended widths: calendar names remain visible beside compact checkboxes, Primary badges stay readable, and Save calendar selections no longer collapses into vertical text.",
-  "sha256": "df1235b6206db8c7cc8c52c48760f53b7ee38f6749ec0b7a59275679ede9123e",
-  "sig": "bHfj6/iseAyCAo3DAOMIa9ePT85rRFwjkDVwBHAFmhI5VnoIaD1cf5i6L72ibdWpu0zG8XDAME2sGmxOfGObCw=="
+  "version": "1.9.30",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.30.zip",
+  "notes": "AI Expert model names now remain visible beside compact checkboxes and reasoning badges. Wake sensitivity changes also start a fresh score window, so old peaks are never compared against a new threshold and above-threshold telemetry no longer shows a contradictory warning.",
+  "sha256": "50ebbdc95a5e6f2a7468ff5b94769ac41785a6104c4665ac5efae026631bf692",
+  "sig": "4Wqm/PP1txaGEbn7iDaD/zlx14y2MQxub7n4yIDqUeZTcV0VEn9fEBRiNlvSgw+bSAIL0eHUFVp7JLMzmu9nCw=="
 }
