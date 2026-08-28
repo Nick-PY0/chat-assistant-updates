@@ -1,7 +1,7 @@
 {
-  "version": "1.9.31",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.31.zip",
-  "notes": "Search YouTube or Netflix on the TV by voice with confirmed foreground and live keyboard focus. TV typing now refuses false success and withholds Enter after focus loss. Explicit Ask ChatGPT or Ask Claude replies are returned full and unchanged unless a summary or transformation is requested. Phone-access diagnostics now show the exact LAN address and actionable firewall, network, and certificate guidance.",
-  "sha256": "dcd4245b82d1e147f0c0a9f8c80cd1cc59f1b7a7f28a40851786bf3fbb863365",
-  "sig": "KjsiUnhKjcf0i5ZdVlXxsbAzeGCv4eI+gK7tHPgQ5PU2uCwznJ+zjvGy11XC50kqs1YqQBxYu491q6pZgkcWAw=="
+  "version": "1.9.32",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.32.zip",
+  "notes": "YouTube TV searches now drive the app-rendered A-Z keyboard shown on screen instead of waiting for a native webOS text-focus signal that YouTube never sends. Chat follows the photographed Home-to-Search-to-A path, selects letters and spaces with bounded D-pad presses, and activates the on-screen Search button. Manual grid typing requires an explicit one-shot confirmation that A is highlighted, and automatic results are truthfully marked screen-unverified.",
+  "sha256": "475570983b9f1907d7f104fbff04454b81a9f2bd1da56817b237993166b4ff19",
+  "sig": "g6oSf6MUUwiPKrYkUfFnQHgfNvQtFEqInrY4f+YgcyFvNcryPDElRLtuO883ZQFb+HlM+Sfx4t55grYeLX72Dg=="
 }
