@@ -1,7 +1,7 @@
 {
-  "version": "1.9.28",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.28.zip",
-  "notes": "Supersedes 1.9.27: the Providers AI Experts page now reads the live ChatGPT and Claude catalog using the authenticated API\u2019s actual response shape, so loading, saving, and rerendering model controls no longer fails with the chatgpt undefined error.",
-  "sha256": "e8f51b8d2da2c863ac3b659daffed30e537fd7f3da1ba1204ec92dcbaf259f64",
-  "sig": "aefHv/b6IIFZGDRc6xuu/C/2dB9xqKQxOo8edGYXVURg5vyGMtI7ErIgv566lJa5NM7aqS007JillOJeYsiJCg=="
+  "version": "1.9.29",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.29.zip",
+  "notes": "Google Calendar controls on the Providers page now keep their intended widths: calendar names remain visible beside compact checkboxes, Primary badges stay readable, and Save calendar selections no longer collapses into vertical text.",
+  "sha256": "df1235b6206db8c7cc8c52c48760f53b7ee38f6749ec0b7a59275679ede9123e",
+  "sig": "bHfj6/iseAyCAo3DAOMIa9ePT85rRFwjkDVwBHAFmhI5VnoIaD1cf5i6L72ibdWpu0zG8XDAME2sGmxOfGObCw=="
 }
