@@ -1,7 +1,7 @@
 {
-  "notes": "Fix Windows LAN firewall setup, reset YouTube searches before slower D-pad navigation, and add bounded GitHub review, publish, sync, and rollback.",
-  "sha256": "aac966e3f830f5b41a0d7d5c6a6a3c847df56acf2bdca24a351ce7f2db3512fd",
-  "sig": "F8GtP53nHPa4yr0VfcLKGCWLblJkpB1gtC9FZVLUHQR52eRajtL6N18OSaY13yIIZ/bsBVIAHz0jg5NaYwu6CQ==",
-  "version": "1.9.33",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.33.zip"
+  "notes": "Fix Windows firewall setup on systems that reject LocalSubnet by using validated active private CIDRs and cleaning up every failed rule attempt.",
+  "sha256": "573da8ff6ce8fa64303470c19f98f27c294aa9877f74a1c55aa919c462d7a039",
+  "sig": "gX6BnNoeJKaIwgazZi1PCfaErU6+WAViFOTltKLFOguYzkivEUVZpiNgADvwby6xxAXVCe1KJ1dJmFnRQR8GCw==",
+  "version": "1.9.34",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.34.zip"
 }
