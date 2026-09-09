@@ -1,7 +1,7 @@
 {
-  "notes": "Fix Windows firewall setup on systems that reject LocalSubnet by using validated active private CIDRs and cleaning up every failed rule attempt.",
-  "sha256": "573da8ff6ce8fa64303470c19f98f27c294aa9877f74a1c55aa919c462d7a039",
-  "sig": "gX6BnNoeJKaIwgazZi1PCfaErU6+WAViFOTltKLFOguYzkivEUVZpiNgADvwby6xxAXVCe1KJ1dJmFnRQR8GCw==",
-  "version": "1.9.34",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.34.zip"
+  "notes": "Add secure opt-in phone access to the Jarvis dashboard with owner login, persistent logout protection, live controls, and an Autoscale-compatible desktop connection. Includes mobile media improvements, safer LG/YouTube TV controls, and Windows Broadcast policy packaging. Broadcast requires the updated Relay website and stays off until enabled locally.",
+  "sha256": "cc31952dafb3f985851843b2264062cf2748bae99cadba4c9d2798acb3eb0fe5",
+  "sig": "6AiPHkg5vPuKfp6d1mGQak0yrh8yngUv0hzxbkyGIWYNHm2aCbLcZjSr56cAmJUKokAt9AZ59LoY4XslIBIvDg==",
+  "version": "1.9.35",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.35.zip"
 }
