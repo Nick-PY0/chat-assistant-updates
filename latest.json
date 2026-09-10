@@ -1,7 +1,7 @@
 {
-  "notes": "Add secure opt-in phone access to the Jarvis dashboard with owner login, persistent logout protection, live controls, and an Autoscale-compatible desktop connection. Includes mobile media improvements, safer LG/YouTube TV controls, and Windows Broadcast policy packaging. Broadcast requires the updated Relay website and stays off until enabled locally.",
-  "sha256": "cc31952dafb3f985851843b2264062cf2748bae99cadba4c9d2798acb3eb0fe5",
-  "sig": "6AiPHkg5vPuKfp6d1mGQak0yrh8yngUv0hzxbkyGIWYNHm2aCbLcZjSr56cAmJUKokAt9AZ59LoY4XslIBIvDg==",
-  "version": "1.9.35",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.35.zip"
+  "notes": "Adds optional desktop tools for the My Jarvis cloud scheduler, with persistent dashboard login and mobile Voice Controller reliability fixes. Cloud scheduling stays off by default. Publish the updated Replit web/API and additive database schema before enabling cloud scheduling; the separate Android worker remains responsible for offline alarm execution.",
+  "sha256": "6e5c118658ab49f0c973e75a2acc6f35be3a6b91388d0518ed452aad1acef3d4",
+  "sig": "MpegNcMNJCmros6ROzkAU0GqT57NaDIGMMOA2A/uv5Ascb/YPSTCFn6LfoFzCu23MP7LHVzGyij+q4COxKmACg==",
+  "version": "1.9.36",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.36.zip"
 }
