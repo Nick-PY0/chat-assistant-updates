@@ -1,7 +1,7 @@
 {
-  "notes": "Refines the Nexa premium dashboard layout, corrects logo and search placement, removes excess spacing, improves mobile information grouping, and keeps existing data paths, wake phrase, routes, and signed updater compatibility.",
-  "sha256": "05cabecc06d2a875a0bf8956f62091d97323a33ac2399695ad0554faa1561627",
-  "sig": "51C8BBAT8VfTARfGX1OcEHrxzDLzM/LgD9VDh3km4s9Rp6fGxf24Efh9U57Ley2zRSOo4aNY94V4SSsHmxlSAA==",
-  "version": "1.10.1",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.1.zip"
+  "notes": "Tightens the spacing between the official Nexa logo and dashboard navigation while preserving the premium layout, inline search shortcut, mobile grouping, existing data paths, wake phrase, routes, and signed updater compatibility.",
+  "sha256": "5b2ce6895668a11a5adf22443283c9bf14e5ca5cbe9bc47f3b8ebec0c3f8a1e5",
+  "sig": "RkLYdD64mIexnO2kq3BrxtDHJZBqS2L0CELWjelQ92/62185qZp+by2kSNCO2lgi6kMCoMKsEnTHz3BU3KKbDg==",
+  "version": "1.10.2",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.2.zip"
 }
