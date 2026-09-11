@@ -1,7 +1,7 @@
 {
-  "notes": "Nexa redesign with official branding, searchable navigation, an organized Control Center, saved Nexa/Classic appearance, independent desktop light/dark preferences, and responsive desktop/cloud layouts. Existing data locations, wake phrase, routes, and signed updater compatibility are preserved.",
-  "sha256": "9e5af10fc910dc983cdfe7d93cf2dea3e5c4fa3fc779e00ba1b2e1cfe6fc22c0",
-  "sig": "qDMfGZ4ybsk72tji3iO+Y/e2BD2u9B5YnF/BmY7GlgouQB4EJB+Gx7bKEVypemvkssZxpxnbX9WJs/2Ma83eBg==",
-  "version": "1.10.0",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.0.zip"
+  "notes": "Refines the Nexa premium dashboard layout, corrects logo and search placement, removes excess spacing, improves mobile information grouping, and keeps existing data paths, wake phrase, routes, and signed updater compatibility.",
+  "sha256": "05cabecc06d2a875a0bf8956f62091d97323a33ac2399695ad0554faa1561627",
+  "sig": "51C8BBAT8VfTARfGX1OcEHrxzDLzM/LgD9VDh3km4s9Rp6fGxf24Efh9U57Ley2zRSOo4aNY94V4SSsHmxlSAA==",
+  "version": "1.10.1",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.1.zip"
 }
