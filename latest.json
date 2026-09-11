@@ -1,7 +1,7 @@
 {
-  "notes": "Restores readable dark-theme text, options, labels, placeholders, borders, and disabled controls; keeps the official Nexa logo centered and unclipped; preserves routes, data paths, wake phrase, and signed updater compatibility.",
-  "sha256": "95a33672398b5e371b4e0936ab6dc4f470a4aa76f4183aef694596131e2bfbfd",
-  "sig": "zyLos55tsgTxDY3HhS7C6b5KHRmpO5k0hTAikDkPdvjk3g8TBWBwG2mkAUFKamXapDczAD4LWcZmwxZ3301zBQ==",
-  "version": "1.10.4",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.4.zip"
+  "notes": "Shows the real stored school upload, explains Replit AI Relay extraction and errors, separates lesson rows from editable/removable metadata, defaults school scheduling to America/Guyana, and preserves the complete Nexa navigation, logo, routes, data paths, wake phrase, and signed updater compatibility.",
+  "sha256": "e78339c8e66d5d5b29c3090133829cf0b7a7fdf2d6113ca7253b861539c6cd0b",
+  "sig": "PPO1OjP/VFb+MN3S9Ecmhg34qIsrAFqmVsElcC8zVw4sAMOLeNlHF66kNspOeEf6HEe3PT3VaVoiX0NUc4jxBw==",
+  "version": "1.10.5",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.5.zip"
 }
