@@ -1,7 +1,7 @@
 {
-  "notes": "Precisely centers the official Nexa dashboard logo by removing the status indicator from the layout calculation, while preserving the premium navigation spacing, mobile layout, routes, data paths, wake phrase, and signed updater compatibility.",
-  "sha256": "3782e49073ca1873d70f6110db560a75b0a3073f3955fba6f1f0558fac36d5b9",
-  "sig": "44PxFViYHFNH0EWspNe3hN4Oo1iQRRc8nJRo5qRzVcDGi8aoSplcwp7hrI18RAt4Whjq/n8JSfqAjSRb+AI4CA==",
-  "version": "1.10.3",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.3.zip"
+  "notes": "Restores readable dark-theme text, options, labels, placeholders, borders, and disabled controls; keeps the official Nexa logo centered and unclipped; preserves routes, data paths, wake phrase, and signed updater compatibility.",
+  "sha256": "95a33672398b5e371b4e0936ab6dc4f470a4aa76f4183aef694596131e2bfbfd",
+  "sig": "zyLos55tsgTxDY3HhS7C6b5KHRmpO5k0hTAikDkPdvjk3g8TBWBwG2mkAUFKamXapDczAD4LWcZmwxZ3301zBQ==",
+  "version": "1.10.4",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.4.zip"
 }
