@@ -1,7 +1,7 @@
 {
-  "notes": "Adds optional desktop tools for the My Jarvis cloud scheduler, with persistent dashboard login and mobile Voice Controller reliability fixes. Cloud scheduling stays off by default. Publish the updated Replit web/API and additive database schema before enabling cloud scheduling; the separate Android worker remains responsible for offline alarm execution.",
-  "sha256": "6e5c118658ab49f0c973e75a2acc6f35be3a6b91388d0518ed452aad1acef3d4",
-  "sig": "MpegNcMNJCmros6ROzkAU0GqT57NaDIGMMOA2A/uv5Ascb/YPSTCFn6LfoFzCu23MP7LHVzGyij+q4COxKmACg==",
-  "version": "1.9.36",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.9.36.zip"
+  "notes": "Nexa redesign with official branding, searchable navigation, an organized Control Center, saved Nexa/Classic appearance, independent desktop light/dark preferences, and responsive desktop/cloud layouts. Existing data locations, wake phrase, routes, and signed updater compatibility are preserved.",
+  "sha256": "9e5af10fc910dc983cdfe7d93cf2dea3e5c4fa3fc779e00ba1b2e1cfe6fc22c0",
+  "sig": "qDMfGZ4ybsk72tji3iO+Y/e2BD2u9B5YnF/BmY7GlgouQB4EJB+Gx7bKEVypemvkssZxpxnbX9WJs/2Ma83eBg==",
+  "version": "1.10.0",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.0.zip"
 }
