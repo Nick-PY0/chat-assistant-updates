@@ -1,7 +1,7 @@
 {
-  "notes": "Shows the real stored school upload, explains Replit AI Relay extraction and errors, separates lesson rows from editable/removable metadata, defaults school scheduling to America/Guyana, and preserves the complete Nexa navigation, logo, routes, data paths, wake phrase, and signed updater compatibility.",
-  "sha256": "e78339c8e66d5d5b29c3090133829cf0b7a7fdf2d6113ca7253b861539c6cd0b",
-  "sig": "PPO1OjP/VFb+MN3S9Ecmhg34qIsrAFqmVsElcC8zVw4sAMOLeNlHF66kNspOeEf6HEe3PT3VaVoiX0NUc4jxBw==",
-  "version": "1.10.5",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.5.zip"
+  "notes": "Fixes the mobile Control Center with swipe-to-open and swipe-to-close navigation, a fully scrollable sidebar, immediately accessible Dashboard link, explicit close button, compact responsive cards and header, and the complete Nexa logo with an aligned status indicator. Preserves Classic view, all existing controls, routes, data, voice behavior, and Hey Jarvis wake phrase.",
+  "sha256": "480c84e1d632ba56f5e3ce94042d2818a22d980df9d9f324153dc9fb97a81e1a",
+  "sig": "G3w3gZk/1rCkr/bzrA9MrA8/ZR0/vGneEl0vzkkHZFw7fVOmIYzmbGqjRjwiWTnQoDV5pzEn9PILI4c2PCElBg==",
+  "version": "1.10.6",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.6.zip"
 }
