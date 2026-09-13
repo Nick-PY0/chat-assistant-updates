@@ -1,7 +1,7 @@
 {
-  "notes": "Fixes the mobile Control Center with swipe-to-open and swipe-to-close navigation, a fully scrollable sidebar, immediately accessible Dashboard link, explicit close button, compact responsive cards and header, and the complete Nexa logo with an aligned status indicator. Preserves Classic view, all existing controls, routes, data, voice behavior, and Hey Jarvis wake phrase.",
-  "sha256": "480c84e1d632ba56f5e3ce94042d2818a22d980df9d9f324153dc9fb97a81e1a",
-  "sig": "G3w3gZk/1rCkr/bzrA9MrA8/ZR0/vGneEl0vzkkHZFw7fVOmIYzmbGqjRjwiWTnQoDV5pzEn9PILI4c2PCElBg==",
-  "version": "1.10.6",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.6.zip"
+  "notes": "Fixes the mobile dashboard menu collapsing to a thin strip in embedded Android browsers. The navigation drawer now fills the available viewport without relying on dynamic viewport-height measurements, keeping Dashboard, navigation links, and lower controls accessible and scrollable. Preserves swipe and close behavior, Classic view, desktop layout, all controls, and Hey Jarvis.",
+  "sha256": "17120d52263800a87e391960dd40666e09eb48f15431f404ab385913b864c0a9",
+  "sig": "48qSPKywtGOEfiz8clw+nvHlcH7UqYFZ+SPHlszJE3FHAmLWduMiwta6gV4Kc/SWJOJFiYOETOn8s1539h06Bg==",
+  "version": "1.10.7",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.7.zip"
 }
