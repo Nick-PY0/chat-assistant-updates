@@ -1,7 +1,7 @@
 {
-  "notes": "Fixes the mobile dashboard menu collapsing to a thin strip in embedded Android browsers. The navigation drawer now fills the available viewport without relying on dynamic viewport-height measurements, keeping Dashboard, navigation links, and lower controls accessible and scrollable. Preserves swipe and close behavior, Classic view, desktop layout, all controls, and Hey Jarvis.",
-  "sha256": "17120d52263800a87e391960dd40666e09eb48f15431f404ab385913b864c0a9",
-  "sig": "48qSPKywtGOEfiz8clw+nvHlcH7UqYFZ+SPHlszJE3FHAmLWduMiwta6gV4Kc/SWJOJFiYOETOn8s1539h06Bg==",
-  "version": "1.10.7",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.7.zip"
+  "version": "1.10.8",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.8.zip",
+  "notes": "Secure remote owner administration, full phone Settings and GitHub controls, update progress, automatic restart and version-confirmed reconnection, with bounded update recovery. Requires the updated published cloud relay for remote administration.",
+  "sha256": "483f1c4ff8a468a456c386440ad7c541db4aa1bf754913f5f66b54a94f6ee45e",
+  "sig": "pKRYcguKAjCH0sgfIDKVo3WAMfzgYEiAcfJFHvaPewwLlOfHsy/RAOiCcS8SW7niTgV6oU+JH+ssmom6wYtpCQ=="
 }
