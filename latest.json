@@ -1,7 +1,7 @@
 {
-  "version": "1.10.8",
-  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.8.zip",
-  "notes": "Secure remote owner administration, full phone Settings and GitHub controls, update progress, automatic restart and version-confirmed reconnection, with bounded update recovery. Requires the updated published cloud relay for remote administration.",
-  "sha256": "483f1c4ff8a468a456c386440ad7c541db4aa1bf754913f5f66b54a94f6ee45e",
-  "sig": "pKRYcguKAjCH0sgfIDKVo3WAMfzgYEiAcfJFHvaPewwLlOfHsy/RAOiCcS8SW7niTgV6oU+JH+ssmom6wYtpCQ=="
+  "version": "1.10.9",
+  "zip_url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/releases/chat-1.10.9.zip",
+  "notes": "Preserve password-confirmed owner administration across navigation while retaining explicit Lock, sign-out, password changes and session expiration. Add the verified owner-account bridge and complete Nexa logo/tab icons. New ET/owner-account features require the matching Nexa website release and protected owner setup; existing desktop password access remains available.",
+  "sha256": "0963908ed7e3220f33d4cc17e0311cb659df945e5a7d4ff146ff84ddcb0a98e1",
+  "sig": "qe/Ucdctm59m9KTA99Iv9cGqWYggoIkT79WPlZOHRp0V+Xz4In4DhEqDCh2VRQYsIGyF/JIktxcDc1MYvo+xDQ=="
 }
