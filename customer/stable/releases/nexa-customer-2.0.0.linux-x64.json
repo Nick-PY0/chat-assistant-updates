@@ -1,0 +1,14 @@
+{
+  "arch": "x64",
+  "channel": "stable",
+  "edition": "customer",
+  "platform": "linux",
+  "protocolVersion": 2,
+  "schemaMax": 2,
+  "schemaMin": 2,
+  "sha256": "0f73bec1fa62c00b995f2966488ccb0c6298e6aeb8c9e869142e7e2317f0b6df",
+  "signature": "2xg/+2358Eg5UT/u4RFpnyvpxrn4DKsTnL4fpqQ3Dm2kRTMyFDCx/UYEnNgUoNtkKjWFh6tmnkNtCoaQdyBCDg==",
+  "size": 100085,
+  "url": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/customer/stable/releases/nexa-customer-2.0.0.zip",
+  "version": "2.0.0"
+}

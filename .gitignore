@@ -1,0 +1,10 @@
+/latest.json
+/releases/
+**/.env
+**/.env.*
+**/*.db
+**/*.db-*
+**/master.key
+**/*signing_key*
+**/node_modules/
+**/__pycache__/
