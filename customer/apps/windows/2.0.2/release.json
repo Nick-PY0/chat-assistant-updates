@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "native-installer-info",
+  "edition": "customer",
+  "platform": "windows",
+  "version": "2.0.2",
+  "fileName": "Nexa-2.0.2-portable-win-x64.exe",
+  "size": 90173376,
+  "sha256": "fe7ecf1f3dfca162541f630b4b407b4932fcca3caab60acefc97ea0f407391de",
+  "downloadPageUrl": "https://key-rotation-manager.replit.app/account",
+  "requiresNexaSignIn": true,
+  "githubBinaryMirrored": false,
+  "authenticodeSigned": false,
+  "embeddedConnectorVersion": "2.0.1"
+}

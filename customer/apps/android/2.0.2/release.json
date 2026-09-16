@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "kind": "native-installer-info",
+  "edition": "customer",
+  "platform": "android",
+  "version": "2.0.2",
+  "versionCode": 12,
+  "packageId": "com.nexaassistant.worker",
+  "fileName": "Nexa-v2.0.2-release.apk",
+  "size": 23187117,
+  "sha256": "8eb34ca6fe68addf1dc357da3c6f80c2a47325a57f8bea3683764d25ddc3edbe",
+  "downloadUrl": "https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/customer/apps/android/2.0.2/Nexa-v2.0.2-release.apk",
+  "rebuilt": false,
+  "automaticApkUpdates": false,
+  "note": "Existing APK mirrored byte-for-byte; retains its existing development Clerk configuration. External source/rebuild is required for the new Android updater."
+}

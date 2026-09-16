@@ -4,7 +4,16 @@ This repository contains customer-only Nexa connector releases and their signed 
 
 ## Windows and Android apps
 
-Sign in at https://key-rotation-manager.replit.app/account and use **Customer apps** to download the current Windows EXE or Android APK. Those installers are delivered by the Nexa website; the connector ZIPs below are not substitutes for an installer.
+| App | Version | Download |
+| --- | --- | --- |
+| Windows x64 | 2.0.2 | [Sign in to Nexa → Customer apps](https://key-rotation-manager.replit.app/account) |
+| Android | Existing 2.0.2 (code 12) | [Download APK](https://raw.githubusercontent.com/Nick-PY0/chat-assistant-updates/main/customer/apps/android/2.0.2/Nexa-v2.0.2-release.apk) |
+
+**Windows:** install 2.0.2 once to gain whole-app automatic downloads/staging and manual controls. Automatic installation occurs on a normal restart; an active session is not forcibly restarted. The EXE is currently unsigned with Authenticode. GitHub did not accept the EXE upload through the publishing connection, so the complete verified file is hosted by Nexa, not attached here. The updated website must be published to expose the new controls.
+
+**Android:** the existing APK is mirrored unchanged, not a rebuilt Android release. It still has its existing development Clerk configuration. Automatic APK updates require the external Android source and a new build; Android can require installation confirmation.
+
+Size/hash details are in [Windows installer information](customer/apps/windows/2.0.2/release.json) and [Android installer information](customer/apps/android/2.0.2/release.json). These informational JSON files are not signed connector-update manifests. The connector ZIPs below are not substitutes for native installers.
 
 ## Signed connector updates
 
